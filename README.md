@@ -24,12 +24,12 @@ You can install these skills using the Open Agent Skills CLI (`npx skills`).
 
 ### Install Frontend Skill | 安装前端技能
 ```bash
-npx skills add <your-github-repo-url> --skill cyber-frontend-design
+npx skills add joyven/cyber-design@cyber-frontend-design
 ```
 
 ### Install Backend Skill | 安装后端技能
 ```bash
-npx skills add <your-github-repo-url> --skill cyber-backend-design
+npx skills add joyven/cyber-design@cyber-backend-design
 ```
 
 ## 🛠 Usage | 使用方法

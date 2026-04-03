@@ -47,6 +47,11 @@ All API responses must follow the RuoYi-standard AjaxResult:
 
 ## 4. Agent Workflow | Agent 工作流
 
+### Install via CLI | 通过 CLI 安装
+```bash
+npx skills add joyven/cyber-design@cyber-backend-design
+```
+
 ### Progress Checklist | 进度检查表
 ```
 Backend Progress:

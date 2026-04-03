@@ -81,6 +81,18 @@ Project Progress:
 - **Consistency**: All modals must use `backdrop-blur-sm` wrappers. | **一致性**：所有弹窗必须使用高斯模糊方案。
 - **Bilingual**: Maintain bilingual documentation for cross-agent clarity. | **双语**：保持文档双语，确保跨 Agent 理解。
 
+## 5. How to Use | 如何使用
+
+### Install via CLI | 通过 CLI 安装
+```bash
+npx skills add joyven/cyber-design@cyber-frontend-design
+```
+
+### Manual Setup | 手动设置
+1. Copy `theme.config.ts` to the project's `src/styles` or `src/constants` directory | 复制 `theme.config.ts` 到项目的 `src/styles` 或 `src/constants` 目录。
+2. Reference the `THEME` configuration in your UI component library | 在 UI 组件库中引用 `THEME` 配置。
+3. Follow the page topology defined in this Skill for development | 遵循该 Skill 定义特有的页面拓扑结构进行开发。
+
 ## References | 参考资料
 
 - [theme.config.ts](theme.config.ts) - Style Tokens
